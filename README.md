@@ -15,7 +15,7 @@
 
 //foto do cabo
 
-5 - Ligar a caixa grande (da esquerda para a direita)
+5 - Ligar o PCAN Router (da esquerda para a direita)
 
 //foto da caixa grande
 
