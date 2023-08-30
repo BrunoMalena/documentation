@@ -19,6 +19,6 @@
 
 //foto da caixa grande
 
-# Tutorial terminal
+# Tutorial: Terminal jetson Rota 2030
 
 ...
