@@ -18,3 +18,7 @@
 5 - Ligar a caixa grande (da esquerda para a direita)
 
 //foto da caixa grande
+
+# Tutorial terminal
+
+...
