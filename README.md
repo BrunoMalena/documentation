@@ -1,7 +1,7 @@
 # Tutorial: Setup Rota 2030  
 1- Ligar o inversor
 
-Inversor_ROTA2030.jpg
+img src="https://desblogada.files.wordpress.co..." width="0px"
 
 2- Ligar o benjamim
 
