@@ -21,4 +21,98 @@
 
 # Tutorial: Terminal jetson Rota 2030
 
-...
+Abra o terminal do Terminator.
+
+Pressione Ctrl + R para abrir o histórico de comandos.
+
+Digite o seguinte comando "cd Documents/ros_ws"
+
+Abra outras duas janelas do Terminator (botão direito - dividir verticalmente ou horizontalmente).
+
+Terminal 1:
+
+No primeiro terminal, pressione Ctrl + R novamente e comece a digitar o comando. Quando encontrar o comando "sudo IP link...", execute-o.
+
+Aguarde sem fechar o terminal.
+
+Terminal 2:
+
+No segundo terminal, digite o seguinte comando source run.sh
+Ele solicitará a senha da Jetson, que é "rota2030".
+
+Terminal 3:
+
+No terceiro terminal, digite o seguinte comando roscore
+
+Terminal 2 (novamente):
+
+No segundo terminal, pressione Ctrl + R novamente e comece a digitar o comando: roslaunch
+
+Terminal 3 (novamente):
+
+No terceiro terminal, pressione Ctrl + R novamente e digite o seguinte comando: 2 / 2
+
+Claro, vou fornecer um passo a passo das instruções que você deu para configurar o sistema no terminal do Terminator:
+
+Passo 1: Abra o terminal do Terminator.
+
+Passo 2: Pressione Ctrl + R para abrir o histórico de comandos.
+
+Passo 3: Digite o seguinte comando e pressione Enter para navegar até a pasta "ros_ws" (ou o diretório que você mencionou):
+
+bash
+
+cd Documents/ros_ws
+
+Passo 4: Abra outras duas janelas do Terminator (botão direito - dividir verticalmente ou horizontalmente).
+
+Passo 5: Você agora tem três terminais abertos.
+
+Terminal 1:
+
+Passo 6: No primeiro terminal, pressione Ctrl + R novamente e comece a digitar o comando. Quando encontrar o comando "sudo IP link...", execute-o.
+
+Passo 7: Aguarde sem fechar o terminal.
+
+Terminal 2:
+
+Passo 8: No segundo terminal, digite o seguinte comando e pressione Enter:
+
+arduino
+
+source run.sh
+
+Ele solicitará a senha da Jetson, que é "rota2030".
+
+Terminal 3:
+
+Passo 9: No terceiro terminal, digite o seguinte comando e pressione Enter:
+
+roscore
+
+Aguarde até que os componentes do ROS sejam inicializados.
+
+Terminal 2 (novamente):
+
+Passo 10: No segundo terminal, pressione Ctrl + R novamente e comece a digitar o comando: roslaunch
+
+Pressione Enter. Isso iniciará um código que exibirá "fuzzy: 0" na tela.
+
+Terminal 3 (novamente):
+
+Passo 11: No terceiro terminal, pressione Ctrl + R novamente e digite o seguinte comando: rosrun
+
+Uma janela aparecerá, mas volte sua atenção para este terminal. Ele está pedindo que você insira o nome da pessoa, o número de repetições e o tipo de alerta. Para o tipo de alerta, insira apenas "v", "h" ou "hv". Preencha as informações necessárias.
+
+Feche a janela da interface que está aberta, verifique se as imagens foram salvas e outros detalhes.
+
+Terminal 3 (novamente):
+
+Volte para o terminal 3, pressione Ctrl + R novamente e digite: rosrun
+
+
+
+
+
+
+
