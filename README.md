@@ -37,11 +37,7 @@ Aguarde sem fechar o terminal.
 
 Terminal 2:
 
-Passo 8: No segundo terminal, digite o seguinte comando e pressione Enter:
-
-arduino
-
-source run.sh
+No segundo terminal, digite o seguinte comando e pressione Enter: source run.sh
 
 Ele solicitará a senha da Jetson, que é "rota2030"
 
