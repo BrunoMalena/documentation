@@ -4,23 +4,35 @@
 <!-- ![inversor](https://github.com/BrunoMalena/documentation/blob/main/media/Inversor_ROTA2030.jpg) -->
 
 <img src="media\Inversor_ROTA2030.jpg"
-width="100px"/>
+width="200px"/>
 
 2- Ligar o benjamim
 
-![benjamim](https://github.com/BrunoMalena/documentation/blob/main/media/Benjamin_ROTA203-.jpg)
+<!-- ![benjamim](https://github.com/BrunoMalena/documentation/blob/main/media/Benjamin_ROTA203-.jpg) -->
+
+<img src="media\Benjamin_ROTA203-.jpg"
+width="200px"/>
 
 3 - Ligar a Jetson
 
-![jetson](https://github.com/BrunoMalena/documentation/blob/main/media/Jetson_ROTA2030.jpg)
+<!-- ![jetson](https://github.com/BrunoMalena/documentation/blob/main/media/Jetson_ROTA2030.jpg) -->
+
+<img src="media\Jetson_ROTA2030.jpg"
+width="200px"/>
 
 4 - Conectar o cabo em baixo do volante
 
-![cabo](https://github.com/BrunoMalena/documentation/blob/main/media/Cabo_ROTA2030)
+<!-- ![cabo](https://github.com/BrunoMalena/documentation/blob/main/media/Cabo_ROTA2030) -->
+
+<img src="media\Cabo_ROTA2030"
+width="200px"/>
 
 5 - Ligar o PCAN Router (da esquerda para a direita)
 
-![pcan](https://github.com/BrunoMalena/documentation/blob/main/media/PCANRouter_ROTA2030)
+<!-- ![pcan](https://github.com/BrunoMalena/documentation/blob/main/media/PCANRouter_ROTA2030) -->
+
+<img src="media\PCANRouter_ROTA2030"
+width="200px"/>
 
 # Tutorial: Terminal jetson Rota 2030
 
