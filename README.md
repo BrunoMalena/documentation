@@ -1,7 +1,10 @@
 # Tutorial: Setup Rota 2030  
 1- Ligar o inversor
 
-![inversor](https://github.com/BrunoMalena/documentation/blob/main/media/Inversor_ROTA2030.jpg)
+<!-- ![inversor](https://github.com/BrunoMalena/documentation/blob/main/media/Inversor_ROTA2030.jpg) -->
+
+<img src="https://github.com/BrunoMalena/documentation/blob/main/media/Inversor_ROTA2030.jpg"
+widht="100px"/>
 
 2- Ligar o benjamim
 
