@@ -3,8 +3,8 @@
 
 <!-- ![inversor](https://github.com/BrunoMalena/documentation/blob/main/media/Inversor_ROTA2030.jpg) -->
 
-<img src="https://github.com/BrunoMalena/documentation/blob/main/media/Inversor_ROTA2030.jpg"
-widht="100px"/>
+<img src="media\Inversor_ROTA2030.jpg"
+width="100px"/>
 
 2- Ligar o benjamim
 
