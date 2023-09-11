@@ -1,84 +1,73 @@
 # Tutorial: Setup Rota 2030  
 1- Ligar o inversor
 
-<!-- ![inversor](https://github.com/BrunoMalena/documentation/blob/main/media/Inversor_ROTA2030.jpg) -->
-
 <img src="media\Inversor_ROTA2030.jpg"
 width="200px"/>
 
 2- Ligar o benjamim
 
-<!-- ![benjamim](https://github.com/BrunoMalena/documentation/blob/main/media/Benjamin_ROTA203-.jpg) -->
-
 <img src="media\Benjamin_ROTA203-.jpg"
 width="200px"/>
 
 3 - Ligar a Jetson
-
-<!-- ![jetson](https://github.com/BrunoMalena/documentation/blob/main/media/Jetson_ROTA2030.jpg) -->
-
+ 
 <img src="media\Jetson_ROTA2030.jpg"
 width="200px"/>
 
 4 - Conectar o cabo em baixo do volante
-
-<!-- ![cabo](https://github.com/BrunoMalena/documentation/blob/main/media/Cabo_ROTA2030) -->
 
 <img src="media\Cabo_ROTA2030"
 width="200px"/>
 
 5 - Ligar o PCAN Router (da esquerda para a direita)
 
-<!-- ![pcan](https://github.com/BrunoMalena/documentation/blob/main/media/PCANRouter_ROTA2030) -->
-
 <img src="media\PCANRouter_ROTA2030"
 width="200px"/>
 
 # Tutorial: Terminal jetson Rota 2030
 
-Abra o terminal do Terminator.
+Passo 1: Ligar as coisas
 
-Pressione Ctrl + R para abrir o histórico de comandos.
+    Verifique as conexões de alimentação em todos os dispositivos mencionados (benjamim, Jetson, caixa de alimentação, carro). Certifique-se de que eles estão conectados corretamente e que estão recebendo energia.
 
-Digite o seguinte comando e pressione Enter para navegar até a pasta "ros_ws" (ou o diretório que você mencionou): bash cd Documents/ros_ws
+    Ligue o inversor, se necessário, para fornecer energia aos dispositivos.
 
-Abra outras duas janelas do Terminator (botão direito - dividir verticalmente ou horizontalmente).
+    Ligue o carro.
 
-Terminal 1:
+    Conecte o OBD2 ao carro.
 
-No primeiro terminal, pressione Ctrl + R novamente e comece a digitar o comando. Quando encontrar o comando "sudo IP link...", execute-o.
+    Conecte o PCAN USB ao seu sistema.
 
-Aguarde sem fechar o terminal.
+Passo 2: Configurar o ambiente de software
 
-Terminal 2:
+    Abra um terminal.
 
-No segundo terminal, digite o seguinte comando e pressione Enter: source run.sh
+    Entrar no WS.
 
-Ele solicitará a senha da Jetson, que é "rota2030"
+    Divida a tela em três terminais diferentes para facilitar a execução dos comandos.
 
-Terminal 3:
+    Source run.sh em todas as telas
 
-No terceiro terminal, digite o seguinte comando e pressione Enter: roscore
+    Sudo ip link set can0 up type can bitrate 500000
 
-Aguarde até que os componentes do ROS sejam inicializados
+Após configurar a interface CAN, você pode executar o seguinte comando em um dos terminais para iniciar um lançamento do ROS (Robotic Operating System):
 
-Terminal 2 (novamente):
+    roslaunch radar_rviz_pkg launch_das.launch
 
-No segundo terminal, pressione Ctrl + R novamente e comece a digitar o comando: roslaunch
+No segundo terminal, execute o seguinte comando para executar o software principal:
 
-Pressione Enter. Isso iniciará um código que exibirá "fuzzy: 0" na tela
+    rosrun radar_rviz_pkg main.py
 
-Terminal 3 (novamente):
 
-No terceiro terminal, pressione Ctrl + R novamente e digite o seguinte comando: rosrun
+Observações:
 
-Uma janela aparecerá, mas volte sua atenção para este terminal. Ele está pedindo que você insira o nome da pessoa, o número de repetições e o tipo de alerta. Para o tipo de alerta, insira apenas "v", "h" ou "hv". Preencha as informações necessárias
+    Certifique-se de que todos os pacotes e dependências do ROS necessários estão instalados no seu ambiente.
 
-Feche a janela da interface que está aberta, verifique se as imagens foram salvas e outros detalhes.
+    Os comandos e caminhos para os arquivos podem variar dependendo da sua configuração e do local dos arquivos no seu sistema. Ajuste-os de acordo com a estrutura do seu projeto.
 
-Terminal 3 (novamente):
+    Certifique-se de ter as permissões adequadas para executar os comandos, especialmente os que requerem privilégios de superusuário (sudo).
 
-Volte para o terminal 3, pressione Ctrl + R novamente e digite: rosrun
+    Certifique-se de que o hardware (Jetson, OBD2, PCAN USB, etc.) está configurado corretamente e todos os drivers estão instalados.
 
 
 
