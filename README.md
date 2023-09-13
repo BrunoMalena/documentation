@@ -30,7 +30,7 @@ Passo 1: Ligar as coisas
 
     Verifique as conexões de alimentação em todos os dispositivos mencionados (benjamim, Jetson, caixa de alimentação, carro). Certifique-se de que eles estão conectados corretamente e que estão recebendo energia.
 
-    Ligue o inversor, se necessário, para fornecer energia aos dispositivos.
+    Ligue o inversor, para fornecer energia aos dispositivos.
 
     Ligue o carro.
 
