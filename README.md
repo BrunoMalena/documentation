@@ -26,7 +26,7 @@ width="200px"/>
 
 # Tutorial: Terminal jetson Rota 2030
 
-Passo 1: Ligar as coisas
+Passo 1: Ligar os componentes
 
     Verifique as conexões de alimentação em todos os dispositivos mencionados (benjamim, Jetson, caixa de alimentação, carro). Certifique-se de que eles estão conectados corretamente e que estão recebendo energia.
 
